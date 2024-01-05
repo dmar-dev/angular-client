@@ -1,11 +1,11 @@
-import {Component, OnInit} from '@angular/core';
-import {User} from "../model/user";
-import {UserService} from "../service/user.service";
+import { Component, OnInit } from '@angular/core';
+import { User } from "../model/user";
+import { UserService } from "../service/user.service";
 
 @Component({
   selector: 'app-user-list',
-  standalone: true,
-  imports: [],
+  //standalone: true,
+  //imports: [],
   templateUrl: './user-list.component.html',
   styleUrl: './user-list.component.css'
 })
